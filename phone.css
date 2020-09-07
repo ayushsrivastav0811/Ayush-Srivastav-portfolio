@@ -1,0 +1,27 @@
+#Services {
+  flex-direction: column;
+  margin: 15px 10px;
+}
+/* #Services .box {
+  border: 2px solid #000;
+  padding: 30px;
+  margin: 12px 8px;
+  border-radius: 23px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px #000;
+} */
+#work {
+  flex-direction: column;
+  margin: 15px 10px;
+}
+/* #work .box {
+  border: 2px solid #000;
+  padding: 30px;
+  margin: 12px 8px;
+  border-radius: 23px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px #000;
+} */
+.slide-track{
+  flex-wrap: wrap;
+}
