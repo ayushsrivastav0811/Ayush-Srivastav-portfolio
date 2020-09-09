@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0px !important;
+  margin:    20px 10px; !important;
 }
 #work{
   display: flex;
