@@ -1,3 +1,8 @@
+.h-secondary{
+  font-size: 5.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
 #Services {
   flex-direction: column;
   margin: 15px 10px;
@@ -10,9 +15,15 @@
   background-color: #f2f2f2;
   box-shadow: 0 0 10px #000;
 } */
+#Services img{
+  width: 100%;
+}
 #work {
   flex-direction: column;
   margin: 15px 10px;
+}
+#work img{
+  width: 100%;
 }
 /* #work .box {
   border: 2px solid #000;
@@ -24,4 +35,8 @@
 } */
 .slide-track{
   flex-wrap: wrap;
+}
+#aiesec-img{
+  width: 100%;
+  height: 50%;
 }
