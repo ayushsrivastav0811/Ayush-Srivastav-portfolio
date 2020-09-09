@@ -17,10 +17,6 @@
     padding: 12px;
     font-family: 'Bree Serif', serif;
 }
-#Services {
-  flex-direction: column;
-  margin: 15px 10px;
-}
 /* #Services .box {
   border: 2px solid #000;
   padding: 30px;
@@ -83,6 +79,8 @@
   height: 50%;
 }
  */
-.projects{
-  flex-wrap: wrap;
+
+#Services {
+  flex-direction: column;
+  margin: 15px 10px;
 }
