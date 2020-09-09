@@ -83,3 +83,6 @@
   height: 50%;
 }
  */
+.projects{
+  flex-wrap: wrap;
+}
