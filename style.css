@@ -648,8 +648,9 @@ p {
 
 /* Projects */
 #Services {
-  display: flex;
-  margin: 34px 0px 0px 130px;
+  display: grid;
+  margin: 34px 20px 20px 20px;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 #Services .box {
@@ -669,8 +670,9 @@ p {
 
 /* Work */
 #work {
-  display: flex;
-  margin: 34px 30px 70px 60px;
+  display: grid;
+  margin: 34px 20px 20px 20px;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 #work .box {
