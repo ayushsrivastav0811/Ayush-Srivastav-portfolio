@@ -27,3 +27,6 @@
   flex-wrap: wrap;
 
 }
+#Services img {
+    width: 100%;
+}
