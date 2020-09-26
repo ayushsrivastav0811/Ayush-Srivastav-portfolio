@@ -633,6 +633,9 @@ hr {
   display: block;
   margin: 15px auto;
 }
+p.center {
+    font-size: 1.5rem;
+}
 
 p {
   font-family: 'Merriweather', serif;
