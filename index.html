@@ -15,7 +15,56 @@
   <link rel="stylesheet" href="phone.css" media="screen and (max-width:1170px)">
 </head>
 <link rel="stylesheet" href="style.css">
+<style>
+      body {
+          -webkit-transition: background-color 1s;
+          transition: background-color 1s;
+      }
+
+      html,
+      body {
+          min-height: 100%;
+      }
+
+      body.loading {
+          background: #1b1b1b url('img/load3.gif') no-repeat 50% 2%;
+          -webkit-transition: background-color 0;
+          transition: background-color 0;
+          opacity: 0;
+          -webkit-transition: opacity 0;
+          transition: opacity 0;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: RoyalBlue;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #1e90ff;
+    }
+  </style>
 </head>
+<!-- loader -->
+<body bgcolor="black" class="loading">
+
+    <script type="text/javascript">
+        var body = document.getElementsByTagName('body')[0];
+        var removeLoading = function () {
+            setTimeout(function () {
+                body.className = body.className.replace(/loading/, '');
+            }, 4000);
+        };
+        removeLoading();
+    </script>
 
 <body>
 
@@ -70,7 +119,7 @@
         <p class="center">This project was made Fully Responsive Website Project <br> Using HTML,CSS,SASS and Bootstrap </p>
       </div>
 
-<!-- Magic Notes--> 
+<!-- Magic Notes-->
      <div class="box">
         <a target="_blank" href="https://ayushsrivastav0811.github.io/MagicNotes.github.io/">
           <img src="img/project/magic.png" alt="">
